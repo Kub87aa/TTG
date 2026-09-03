@@ -1,0 +1,157 @@
+:root {
+    --ios-bg: #080711;
+    --ios-left-bubble: rgba(38, 38, 42, 0.9);
+    --ios-blue-start: #0A84FF;
+    --ios-blue-end: #007AFF;
+    --ios-green-start: #34C759;
+    --ios-green-end: #28CD41;
+    --text-main: #FFFFFF;
+    --text-muted: #98989D;
+}
+
+html, body {
+    background-color: var(--ios-bg) !important;
+    color: var(--text-main) !important;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main {
+    background: 
+        radial-gradient(circle at 15% 15%, rgba(255, 42, 133, 0.15) 0%, transparent 45%),
+        radial-gradient(circle at 85% 55%, rgba(0, 240, 255, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 50% 85%, rgba(52, 199, 89, 0.10) 0%, transparent 50%),
+        var(--ios-bg) !important;
+    min-height: 100vh;
+}
+
+nav#navv {
+    background-color: rgba(15, 14, 25, 0.75) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.1) !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav#navv ul {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+nav#navv a {
+    color: var(--text-main) !important;
+}
+
+#siema1234{
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    justify-items: center;
+}
+
+#gruba {
+    font-size: 55px;
+    color: var(--ios-blue-start);
+    text-shadow: 0 0 15px rgba(10, 132, 255, 0.6);
+}
+
+#witam {
+    position: absolute;
+    color: #ffffff !important;
+    font-size: 40px;
+    font-family: "Seymour One", sans-serif;
+}
+
+#witam1 {
+    position: absolute;
+    color: var(--ios-green-start) !important;
+    font-size: 55px;
+    padding-top: 42px;
+    font-family: "Seymour One", sans-serif;
+    text-shadow: 0 0 15px rgba(52, 199, 89, 0.6);
+}
+
+
+div[id^="lewa"] span, 
+div[id^="prawa"] span,
+aside span {
+    color: var(--text-muted) !important;
+}
+
+span.font-semibold {
+    color: var(--text-main) !important;
+    font-weight: 600 !important;
+}
+
+.inline-block p {
+    color: #FFFFFF !important;
+    font-size: 15px;
+    font-weight: 400 !important;
+    line-height: 1.35;
+}
+
+aside .inline-block,
+div[id^="lewa"] .inline-block {
+    background-color: var(--ios-left-bubble) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 18px 18px 18px 4px !important;
+    padding: 10px 16px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+div[id^="prawa"] .inline-block,
+div[id^="prawa"] .inline-block.dark\:bg-blue-500 {
+    background: linear-gradient(180deg, var(--ios-blue-start) 0%, var(--ios-blue-end) 100%) !important;
+    border: none !important;
+    border-radius: 18px 18px 4px 18px !important;
+    padding: 10px 16px !important;
+    box-shadow: 0 4px 20px rgba(10, 132, 255, 0.35);
+}
+
+div[id^="prawa"] .inline-block.dark\:bg-green-500 {
+    background: linear-gradient(180deg, var(--ios-green-start) 0%, var(--ios-green-end) 100%) !important;
+    border: none !important;
+    border-radius: 18px 18px 4px 18px !important;
+    padding: 10px 16px !important;
+    box-shadow: 0 4px 20px rgba(52, 199, 89, 0.35);
+}
+
+div[id^="lewa"] img,
+div[id^="prawa"] img,
+aside img {
+    border-radius: 50% !important;
+    border: none !important;
+}
+
+
+footer {
+    background-color: rgba(10, 9, 18, 0.9) !important;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+footer span, footer a {
+    color: var(--text-muted) !important;
+}
+
+footer hr {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--ios-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2c2b38;
+    border-radius: 10px;
+}
