@@ -1,6 +1,8 @@
 🎤 Tthe Grind (TTG) – Tour Announcement Landing Page
 Nowoczesny landing page ogłaszający trasę koncertową Tthe Grind (TTG). Projekt INSPIROWANY jest estetyką stron koncertowych polskich raperów (m.in. Sobla) – całe ujawnianie miast i szczegółów trasy odbywa się w formie interaktywnej konwersacji na czacie.
 
+Podgląd:  https://kub87aa.github.io/TTG/
+
 ✨ Główny Koncept i Funkcje
 💬 Czat iMessage (iOS Dark Mode): Prezentacja miast trasy w formie konwersacji między artystami (szare bąbelki odebrane, niebieskie i zielone bąbelki wysłane).
 
