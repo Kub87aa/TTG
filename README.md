@@ -20,7 +20,7 @@ GSAP 3 + ScrollTrigger: Biblioteka do profesjonalnych animacji napędzanych skro
 Tailwind CSS & Flowbite: Komponenty UI oraz baza nawigacji i stopki.
 
 Google Fonts: Typografia (Roboto, Seymour One).
-
+```bash
 📁 Struktura Projektu
 ├── img/               # Awatary (Kuba, Otsochodzia), logo projektu, ikony SVG
 ├── index.html         # Główny plik HTML z czatem i strukturą strony
